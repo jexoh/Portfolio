@@ -11,11 +11,13 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0,maximum-scale=1.0">
 
 <link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-<link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/screen.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 
 <script src="js/wow.min.js"></script>
+<script src="js/svg-replace.js"></script>
 <script>
  new WOW().init();
 </script>
@@ -40,19 +42,21 @@
 	<section class="website-wrapper">
 		<header>
 			<nav>
+				<img src="./img/logo.png">
 				<ul>
 					<li><a href="about">ABOUT</a></li>
 					<li><a href="work">WORK</a></li>
 					<li><a href="contact">CONTACT</a></li>
 				</ul>
 			</nav>
-		<h1>Hi There!</h1>
-		<h3>I'm Patrick, i design and craft for the web.</h3>
+		<h1>Hi there!</br><span class="subheadline">I'm Patrick, i design and craft for the web.</span></h1>
+		
 		</header>
 
 		<section class="skill-section">
+			<div class="skill-wrapper">
 			<div class="skill-block">
-				<img src="">
+				<img src="./img/bulb.svg">
 				<article class="skill-description">
 					<h4>Have an idea</h4>
 					<p>An erster Stelle steht immer eine Idee. Diese gilt es auszuarbeiten. Dieser erste Kreativprozess hilft dabei etwas wunderbares zu schaffen.</p>
@@ -60,7 +64,7 @@
 			</div>
 
 			<div class="skill-block">
-				<img src="">
+				<img src="./img/design.svg">
 				<article class="skill-description">
 					<h4>Make it beautiful</h4>
 					<p>Was nützt das beste Website Konzept ohne visualisierung? Richtig! Eine Idee auf Papier, naja oder eben den Monitor zu bringen ist meine Leidenschaft.</p>
@@ -68,55 +72,93 @@
 			</div>
 
 			<div class="skill-block">
-				<img src="">
+				<img src="./img/gear.svg">
 				<article class="skill-description">
 					<h4>Bring it to live</h4>
 					<p>Was gibt es schöneres als ein Projekt fast beendet zu haben und anschließend zum Leben zu erwecken?</p>
 				</article>
 			</div>
 
-			<a href="about" class="long-button">ABOUT</a>
+			<div class="center-button"><a href="about" class="long-button">ABOUT</a></div>
+			</div>
 		</section>
 
 		<section class="about-section">
 			<article class="about-text">
 				<h2>Something about …</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<a href="work">NOW SHOW ME SOME STUFF</a>
 			</article>
 			
 			<figure class="portrait">
-				<img src="portrait" alt="Portrait Scribble">
 			</figure>
 
-			<a href="work">NOW SHOW ME SOME STUFF</a>
+
 		</section>
 
 		<section class="projects-section">
 			<h2>A brief excerpt of past projects</h2>
 			<div class="thumbs">
-				<img src="nr1">
-				<img src="nr2">
-				<img src="nr3">
-				<img src="nr4">
-				<img src="nr5">
-				<img src="nr6">
+				<img src="./img/sinnleffers_01.png">
+				<img src="./img/brinkhoffs_01.png">
+				<img src="./img/brenntag_01.png">
+				<img src="./img/ista_01.png">
+				<img src="./img/milka_01.png">
+				<img src="./img/beko_01.png">
 			</div>
 			<a href="showmemore">SHOW ME SOME MORE</a>
 		</section>
 		
 		<section class="contact-form">
 			<h2>Now let's get in touch</h2>
-			
+			 <?php
+                    /**
+                     * System Meldungen
+                     */
+                    echo isset($msg) ? $msg : null;
+
+                    /**
+                     * Formular Defaults oder abgesendete POST
+                     */
+                    $_val_subject = isset($post_arr['subject']) ? $post_arr['subject'] : null;
+                    $_val_name = isset($post_arr['name']) ? $post_arr['name'] : null;
+                    $_val_email = isset($post_arr['email']) ? $post_arr['email'] : null;
+                    $_val_message = isset($post_arr['message']) ? $post_arr['message'] : null;
+
+                    /**
+                     * E-Mail wurde noch nicht gesendet
+                     */
+                    if ($email_gesendet === false):
+                        ?>
+                        <form id="contact_form" action="" method="post">
+                            <input type="hidden" name="form[request]" value="senden" />
+                            <fieldset>
+                                <label for="form_name">Your name</label>
+                                <input name="form[name]" type="text" id="form_name" required="required" placeholder="Your name" />
+
+                                <label for="form_email">Your E-Mail</label>
+                                <input name="form[email]" type="email" id="form_email" required="required" placeholder="Your E-Mail" />
+
+                                <label for="form_message">What do you want to tell me?</label>
+                                <textarea name="form[message]"  id="form_message"  draggable="false" placeholder="Feel free to write a novel …" required="required">
+                                </textarea>
+
+                                <input type="submit" id="send_mail" value="Lets get things done" />
+                            </fieldset>
+                        </form>
+                        <?php
+                    endif; // $email_gesendet === false
+                    ?>
 
 		</section>
 
 		<footer>
 			<aside class="copyright">© 2009-2015</br>Patrick Pauluhn</aside>
 			<ul class="social-icons">
-				<li><a href="Dribble">Dribble</a></li>
-				<li><a href="Facebook">Facebook</a></li>
-				<li><a href="vscom">Vscom</a></li>
-				<li><a href="Xing">Xing</a></li>
+				<li><a href="https://www.facebook.com/patrick.pauluhn"><img src="./img/facebook.png"></a></li>
+				<li><a href="http://patrickpauluhn.vsco.co/"><img src="./img/vsco.png"></a></li>
+				<li><a href="https://www.xing.com/profile/Patrick_Pauluhn"><img src="./img/xing.png"></a></li>
 			</ul>
 		</footer>
 

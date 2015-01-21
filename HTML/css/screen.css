@@ -1,0 +1,233 @@
+body {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  min-width: 1180px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera */
+  animation: fadein 2s; }
+
+/* General */
+h4 {
+  font-family: Lato-Light;
+  font-size: 1.944em;
+  color: #272F38;
+  line-height: 1.244em; }
+
+h2 {
+  font-family: Lato-Light;
+  font-size: 3.222em;
+  color: #fff;
+  margin: 0; }
+
+p {
+  font-family: Lato-Light;
+  font-size: 1.125em;
+  color: #272F38;
+  line-height: 1.556em; }
+
+/* Header */
+header {
+  width: 100%;
+  height: 680px;
+  background: url(../img/Portfolio-Portrait.jpg) no-repeat center top;
+  position: relative; }
+  header h1 {
+    text-align: right;
+    margin: 150px 30px 40px 0;
+    line-height: 70px;
+    font-family: Lato-Bold;
+    font-size: 100px;
+    color: #FFFFFF; }
+    header h1 .subheadline {
+      font-family: Lato-Light;
+      font-size: 30px;
+      color: #FFFFFF;
+      padding: 10px 0 15px 0;
+      border-bottom: 3px solid #fff; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  position: relative; }
+  nav img {
+    display: inline;
+    position: relative;
+    margin: 20px 30px 0 30px; }
+  nav ul {
+    display: inline; }
+    nav ul li {
+      display: inline-block;
+      position: relative;
+      float: right;
+      margin: 20px 30px 0 0; }
+      nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.250em;
+        padding: 0 0 5px 0; }
+        nav ul li a:hover {
+          border-bottom: 2px solid #fff; }
+
+/* Skill-Section */
+.skill-section {
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 90px 0;
+  margin: 0 auto; }
+  .skill-section .long-button {
+    border: 1px solid #272F38;
+    font-size: 1.389em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 120px;
+    color: #272F38;
+    text-align: center;
+    position: relative;
+    margin: 30px auto; }
+    .skill-section .long-button:hover {
+      border: 1px solid #A61748;
+      background: #A61748;
+      color: #fff; }
+
+.skill-wrapper {
+  text-align: center;
+  width: 100%; }
+
+.center-button {
+  position: relative;
+  margin: 30px auto;
+  text-align: center;
+  height: auto;
+  width: 100%; }
+
+.skill-block {
+  margin: 20px 0;
+  padding: 0 30px;
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center; }
+  .skill-block h4 {
+    margin: 20px 0 0 0; }
+
+/* About-Section */
+.about-section {
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 90px 0;
+  background: #A61748 url(../img/portrait.png) no-repeat right bottom; }
+  .about-section .about-text {
+    margin: 0 0 0 10%;
+    text-align: left;
+    width: 50%; }
+    .about-section .about-text p {
+      color: #fff;
+      margin: 30px 0 50px 0; }
+    .about-section .about-text a {
+      border: 1px solid #fff;
+      font-size: 1.389em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 60px;
+      color: #fff; }
+      .about-section .about-text a:hover {
+        border: 1px solid #A61748;
+        background: #fff;
+        color: #a61748; }
+
+/* Projects-Section */
+.projects-section h2 {
+  color: #272F38; }
+
+/* Contact-Section */
+.contact-form {
+  width: 100%;
+  height: 770px;
+  background: #A61748;
+  text-align: center;
+  padding: 80px 0 80px 0; }
+
+fieldset {
+  display: block;
+  border: none;
+  width: 98%;
+  height: auto;
+  float: left;
+  position: relative;
+  margin-top: 30px; }
+
+label {
+  position: relative;
+  width: 50%;
+  margin: 10px auto;
+  height: auto;
+  display: block;
+  font-family: Lato-Light;
+  font-size: 1.125em;
+  color: #fff;
+  line-height: 1.556em; }
+
+input {
+  position: relative;
+  width: 50%;
+  margin: 15px auto;
+  height: auto;
+  display: block;
+  padding: 10px;
+  font-size: 15px; }
+
+textarea {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: 200px;
+  padding: 10px;
+  font-size: 15px;
+  display: block; }
+
+input[type=submit] {
+  width: 51%;
+  border: 1px solid #fff;
+  font-size: 1.389em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 60px;
+  color: #fff;
+  background: #a61748;
+  -webkit-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease; }
+  input[type=submit]:hover {
+    border: 1px solid #A61748;
+    background: #fff;
+    color: #a61748; }
+
+/* Footer-Section */
+footer {
+  width: 100%;
+  height: 90px;
+  position: relative; }
+  footer .copyright {
+    float: left;
+    margin: 20px 0 20px 30px;
+    font-family: Lato-Light;
+    font-size: 0.889em;
+    color: #A61748; }
+
+.social-icons {
+  float: right;
+  margin: 20px 0 10px 15px; }
+  .social-icons li {
+    display: inline-block;
+    margin: 0 30px 0 -15px; }
