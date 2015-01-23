@@ -47,7 +47,10 @@ p {
 	&:hover {
 		border: 1px solid #A61748;
 		background: #A61748;
-		color: #fff;}
+		color: #fff;
+		-webkit-transition: all 0.5s 0s ease;
+		transition: all 0.5s 0s ease;
+	}
 }
 
 /* Header */
@@ -75,7 +78,10 @@ header {
 	}
 
 	}
-
+.intro-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
 nav {
 	width: 100%;
 	height: 50px;
@@ -102,7 +108,10 @@ nav {
 			font-weight: 700;
 			font-size: 1.250em;
 			padding: 0 0 5px 0;
-			&:hover{ border-bottom: 2px solid #fff;}
+			&:hover{ 
+				border-bottom: 2px solid #fff;
+				-webkit-transition: all 0.3s 0s ease;
+				transition: all 0.3s 0s ease;}
 		}
 		
 
@@ -125,11 +134,13 @@ nav {
 		text-align: center;
 		position: relative;
 		margin: 30px auto;
+
 	}
 }
 .skill-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
 	text-align: center;
-	width: 100%;
 
 }
 .center-button {
@@ -142,12 +153,15 @@ nav {
 
 .skill-block {
 	margin: 20px 0;
-	padding: 0 30px;
+	padding: 0 20px;
 	display: inline-block;
-	width: 25%;
+	width: 28%;
 	height: auto;
 	text-align: center;
-
+	img {
+		height: 130px;
+		width: auto;
+	}
 	h4 {
 		margin: 20px 0 0 0;
 	}
@@ -155,6 +169,11 @@ nav {
 
 
 /* About-Section */
+
+.about-wrapper{
+	max-width: 1400px;
+	margin: 0 auto;
+}
 
 .about-section {
 	width: 100%;
@@ -164,7 +183,7 @@ nav {
 	background: #A61748 url(../img/portrait.png) no-repeat right bottom;
 
 	.about-text {
-		margin: 0 0 0 10%;
+		margin: 0 0 0 5%;
 		text-align: left;
 		width: 50%;
 		
@@ -183,7 +202,9 @@ nav {
 	&:hover {
 		border: 1px solid #A61748;
 		background: #fff;
-		color: #a61748;}
+		color: #a61748;
+		-webkit-transition: all 0.5s 0s ease;
+		transition: all 0.5s 0s ease;}
 	}
 
 	}
@@ -202,7 +223,7 @@ nav {
 /* Contact-Section */
 .contact-form {
 	width: 100%;
-	height: 770px;
+	height: 650px;
 	background: #A61748;
 	text-align: center;
 	padding: 80px 0 80px 0;
@@ -282,9 +303,15 @@ footer {
 	float: left;
 	margin: 20px 0 20px 30px;
 	font-family: Lato-Light;
-	font-size: 0.889em;
+	font-size: 1em;
 	color: #A61748;
 	}
+}
+
+.footer-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+
 }
 
 .social-icons{
@@ -293,6 +320,11 @@ footer {
 	li {
 	display: inline-block;
 	margin: 0 30px 0 -15px;
+	a:hover{
+		opacity: 0.5;
+		-webkit-transition: all 0.3s 0s ease;
+		transition: all 0.3s 0s ease;
+	}
 	}
 		
 }

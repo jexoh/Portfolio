@@ -20,6 +20,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/HTML\/img\/beko_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119389,
+		"inputAbbreviatedPath": "\/HTML\/img\/beko_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/beko_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/brenntag_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88123,
+		"inputAbbreviatedPath": "\/HTML\/img\/brenntag_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/brenntag_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/brinkhoffs_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161739,
+		"inputAbbreviatedPath": "\/HTML\/img\/brinkhoffs_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/brinkhoffs_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/dribble.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3360,
+		"inputAbbreviatedPath": "\/HTML\/img\/dribble.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/dribble.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2095,
+		"inputAbbreviatedPath": "\/HTML\/img\/facebook.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/ista_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126863,
+		"inputAbbreviatedPath": "\/HTML\/img\/ista_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/ista_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/HTML\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -29,7 +95,18 @@
 		"outputAbbreviatedPath": "\/HTML\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/HTML\/img\/milka_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110803,
+		"inputAbbreviatedPath": "\/HTML\/img\/milka_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/milka_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/HTML\/img\/Portfolio-Portrait.jpg": {
 		"fileType": 16384,
@@ -49,6 +126,39 @@
 		"initialSize": 156684,
 		"inputAbbreviatedPath": "\/HTML\/img\/portrait.png",
 		"outputAbbreviatedPath": "\/HTML\/img\/portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/sinnleffers_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167903,
+		"inputAbbreviatedPath": "\/HTML\/img\/sinnleffers_01.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/sinnleffers_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/vsco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2288,
+		"inputAbbreviatedPath": "\/HTML\/img\/vsco.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/vsco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/HTML\/img\/xing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2531,
+		"inputAbbreviatedPath": "\/HTML\/img\/xing.png",
+		"outputAbbreviatedPath": "\/HTML\/img\/xing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
